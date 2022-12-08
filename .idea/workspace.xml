@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b807f64b-b614-4129-a339-42a996b938ee" name="Changes" comment="">
+    <list default="true" id="b807f64b-b614-4129-a339-42a996b938ee" name="Changes" comment="adam">
+      <change afterPath="$PROJECT_DIR$/src/Observable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ServerCommunication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChatAppNoGrad.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ChatAppNoGrad.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Kontroller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kontroller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Kontroller.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,7 +23,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -37,16 +43,71 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="ChatAppNoGrad" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServerCommunicationTest.sendLoginToServer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ChatAppNoGrad" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ServerCommunicationTest" />
+      <option name="METHOD_NAME" value="sendLoginToServer" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServerCommunicationTest.sendLoginToServerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ChatAppNoGrad" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ServerCommunicationTest" />
+      <option name="METHOD_NAME" value="sendLoginToServerTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.ServerCommunicationTest.sendLoginToServerTest" />
+        <item itemvalue="JUnit.ServerCommunicationTest.sendLoginToServer" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -56,8 +117,41 @@
       <option name="presentableId" value="Default" />
       <updated>1668546530670</updated>
       <workItem from="1668546532041" duration="1023000" />
-      <workItem from="1668547592796" duration="2761000" />
+      <workItem from="1668547592796" duration="3287000" />
+      <workItem from="1668620916833" duration="2468000" />
+      <workItem from="1668623748355" duration="673000" />
+      <workItem from="1668624504347" duration="511000" />
+      <workItem from="1668625319739" duration="6207000" />
+      <workItem from="1669301078539" duration="6622000" />
+      <workItem from="1669375369241" duration="12044000" />
+      <workItem from="1669390349561" duration="210000" />
+      <workItem from="1669390686882" duration="42000" />
+      <workItem from="1669411737529" duration="4101000" />
+      <workItem from="1669459780418" duration="16828000" />
+      <workItem from="1669482400977" duration="57000" />
+      <workItem from="1669555118463" duration="15879000" />
+      <workItem from="1669581688568" duration="1360000" />
+      <workItem from="1669584683654" duration="561000" />
+      <workItem from="1669989704160" duration="9688000" />
+      <workItem from="1670058265892" duration="3770000" />
+      <workItem from="1670067061616" duration="225000" />
+      <workItem from="1670069021301" duration="9000" />
+      <workItem from="1670069060050" duration="144000" />
+      <workItem from="1670069262814" duration="113000" />
+      <workItem from="1670078019607" duration="2896000" />
+      <workItem from="1670332778973" duration="1931000" />
+      <workItem from="1670338848914" duration="2115000" />
+      <workItem from="1670426603359" duration="9824000" />
+      <workItem from="1670451529613" duration="5414000" />
     </task>
+    <task id="LOCAL-00001" summary="adam">
+      <created>1668550652928</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1668550652928</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -73,5 +167,12 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="adam" />
+    <option name="LAST_COMMIT_MESSAGE" value="adam" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ChatAppNoGrad$Main.ic" NAME="Main Coverage Results" MODIFIED="1669306646134" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
